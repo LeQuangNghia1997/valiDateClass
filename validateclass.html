@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function  validateClass(str) {
+        pattern =   /^[CAP][A-Za-z0-9]{4}[GHIKLM]*$/;
+        if(pattern.test(str)){
+            return true;
+        }
+        return false;
+    }
+    var lop = "A0318G";
+    console.log(validateClass(lop))
+</script>
+</body>
+</html>
